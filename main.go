@@ -27,8 +27,8 @@ func init() {
 func main() {
 	fmt.Printf(`
   __    _   ___  
- / /\  | | | |_) 
-/_/--\ |_| |_| \_ v%s // live reload for Go apps, with Go%s
+ / /\  | | | |_)  v%s
+/_/--\ |_| |_| \_ built with Go v%s
 
 `, airVersion, goVersion)
 
